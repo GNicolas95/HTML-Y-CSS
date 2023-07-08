@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a class="menu" href="index.html">Inicio</a></li>
+                <li><a class="menu" href="about.html">Sobre Cordoba</a></li>
+                <li><a class="menu" href="accommodation.html">Alojamientos</a></li>
+                <li><a class="menu" href="visits_activities.html">Actividades</a></li>
+                <li><a class="menu" href="entertainment.html">Entretenimientos</a></li>
+                <li><a class="menu" href="form.html">Contáctanos</a></li>
+            </ul>
+        </nav>
+        <h2> Tus datos </h2><br>
+        <form class="contactos-1" method="post" action="mailto:geroma16@gmail.com">
+            <label for="Usuario">Usuario:</label>
+            <input type="text" id="Usuario" name="Usuario" required><br>
+
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" name="Email" required><br>
+
+            <label for="Mensaje">Mensaje:</label>
+            <textarea name="Mensaje"  rows="5" cols="30" id="Mensaje" required></textarea><br>
+
+            <input class="boton" type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
